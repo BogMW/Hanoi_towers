@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+    <div class="ui-box">
+        <div class="form">
+            <label for="input">Виберіть кількість дисків, від 3 до 8</label>
+            <input id="input" type="number" min="3" max="8">
+            <button class="new-game">Нова гра</button>
+        </div>
+        <div>
+            <span>Кількість кроків: </span>
+            <span id="counter">0</span>
+        </div>
+
+        <button class="back">Назад</button>
+        <button class="forward">Вперед</button>
+        <button class="play-game" disabled>Показати усі кроки</button>
+    </div>
+
+    <div class="towers-wrapper">
+        <div class="tower-wrap start-tower" data-tow-num="1">
+
+        </div>
+        <div class="tower-wrap" data-tow-num="2">
+
+        </div>
+        <div class="tower-wrap" data-tow-num="3">
+
+        </div>
+    </div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

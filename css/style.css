@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+/*****************************TOWERS***************************************/
+.towers-wrapper {
+    width: 810px;
+    height: 340px;
+    margin: 50px auto;
+    font-size: 0;
+}
+.tower-wrap {
+    width: 250px;
+    height: 100%;
+    margin: 0 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    vertical-align: top;
+    position: relative;
+}
+.tower {
+    width: 15px;
+    height: 100%;
+    background: #b5b5b5;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    margin: auto;
+    z-index: -1;
+}
+.disc{
+    height: 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.disc-1 {
+    width: 30%;
+    background: #eced68;
+}
+.disc-2 {
+    width: 40%;
+    background: #87ff59;
+}
+.disc-3 {
+    width: 50%;
+    background: #86cbff;
+}
+.disc-4 {
+    width: 60%;
+    background: #bb8eff;
+}
+.disc-5 {
+    width: 70%;
+    background: #ffa2f6;
+}
+.disc-6 {
+    width: 80%;
+    background: #1b975a;
+}
+.disc-7 {
+    width: 90%;
+    background: #ff5458;
+}
+.disc-8 {
+    width: 100%;
+    background: #0e10ff;
+}
+.disc:hover {
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.ui-box {
+    text-align: center;
+    margin-top: 50px;
+}
+.ui-box > div {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
